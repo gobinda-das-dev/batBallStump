@@ -1,9 +1,31 @@
 * {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
+    height: 100vh;
+    width: 100vw;
     text-align: center;
+    background: linear-gradient(135deg, blue, pink);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: white; 
+    height: 300px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.container h1 {
+    margin: 10px;
+    margin-bottom: 20px;
 }
 
 button {
@@ -13,6 +35,8 @@ button {
 }
 
 #restart {
+    height: 25px;
+    width: 25px;
     font-weight: 900;
     color: rgb(255, 137, 137);
     font-size: 1rem;
