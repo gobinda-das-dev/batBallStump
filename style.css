@@ -1,0 +1,64 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+button {
+    font-size: 2rem;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#restart {
+    font-weight: 900;
+    color: rgb(255, 137, 137);
+    font-size: 1rem;
+    position: relative;
+    left: 40px;
+    bottom: 5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+}
+
+#restart:active {
+    box-shadow: none;
+    transform: translate(2px, 2px);
+}
+
+.display {
+    font-weight: 600;
+    font-size: large;
+}
+
+.display p {
+    display: inline;
+    position: relative;
+    top: 12px;
+    right: 20px;
+}
+
+.display .choice {
+    font-size: 3rem;
+    text-shadow: 1.5px 1.5px  rgba(0, 0, 0, 0.5);
+}
+
+.display {
+    display: none;
+}
+
+
+
+.score_bord input {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+}
