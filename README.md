@@ -1,2 +1,4 @@
 # batBallStump
-Welcome to Bat, Ball, Stump game.
+Welcome to the Bat, Ball, Stump game.
+
+Creator - Gobinda Das
