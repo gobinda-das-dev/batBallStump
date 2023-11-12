@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Bat Ball Stump game</h1>
+
+    <button id="bat">🏏</button>
+    <button id="ball">⚽</button>
+    <button id="wicket">🧱</button>
+    <button id="restart">R</button>
+
+    <div class="display">
+        <p>You  v/s Computer</p>
+        <div>
+            <p class="yourChoice choice"></p>
+            <p>vs</p>
+            <p class="computerChoice choice"></p>
+        </div>
+        <div style="text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);">
+            <p class="won" style="color: rgb(0, 255, 0);"></p>
+            <p class="lost" style="color: rgb(255, 55, 0);"></p>
+            <p class="tie" style="color: rgb(0, 191, 255);"></p>
+        </div>
+    </div>
+
+    <div class="score_bord">
+        <input type="text" name="score_bord" readonly>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
